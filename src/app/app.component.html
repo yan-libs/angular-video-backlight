@@ -1,0 +1,37 @@
+<div class="video_container">
+  <video src="assets/test_1.mp4"
+         [muted]="true"
+         [delta]="delta"
+         [blur_radius]="blur_radius"
+         [spread_radius]="spread_radius"
+         [alpha]="alpha"
+         controls
+         backlight>
+  </video>
+  <div class="shadow_controls">
+    <div>
+      <span>Delta</span>
+      <mat-slider [max]="200" [min]="0" [step]="1" discrete>
+        <input matSliderThumb [(ngModel)]="delta">
+      </mat-slider>
+    </div>
+    <div>
+      <span>Blur radius</span>
+      <mat-slider [max]="200" [min]="0" [step]="1" discrete>
+        <input matSliderThumb [(ngModel)]="blur_radius">
+      </mat-slider>
+    </div>
+    <div>
+      <span>Spread radius</span>
+      <mat-slider [max]="200" [min]="0" [step]="1" discrete>
+        <input matSliderThumb [(ngModel)]="spread_radius">
+      </mat-slider>
+    </div>
+    <div>
+      <span>Alpha</span>
+      <mat-slider [max]="1" [min]="0" [step]="0.1" discrete>
+        <input matSliderThumb [(ngModel)]="alpha">
+      </mat-slider>
+    </div>
+  </div>
+</div>
