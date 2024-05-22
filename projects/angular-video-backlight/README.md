@@ -9,7 +9,7 @@ npm install angular-video-backlight
 
 #### Import the module
 ```ts
-import { VideoBacklightModule } from "angular-video-backlight";
+import { AngularVideoBacklightModule } from "angular-video-backlight";
 
 @NgModule({
   declarations: [
@@ -17,7 +17,7 @@ import { VideoBacklightModule } from "angular-video-backlight";
   ],
   imports: [
     //some imports
-    VideoBacklightModule
+    AngularVideoBacklightModule
   ],
 })
 ```
