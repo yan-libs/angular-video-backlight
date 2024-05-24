@@ -1,6 +1,6 @@
 {
   "name": "angular-video-backlight",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "peerDependencies": {
     "@angular/common": "^15.2.0",
     "@angular/core": "^15.2.0"
@@ -8,5 +8,11 @@
   "dependencies": {
     "tslib": "^2.3.0"
   },
+  "keywords": [
+    "angular",
+    "angular.js",
+    "video",
+    "backlight"
+  ],
   "sideEffects": false
 }
